@@ -1,8 +1,10 @@
 
 CREATE SCHEMA ABC_Corporation;
 USE ABC_Corporation;
+
 CREATE TABLE Employee_Data (
-    Age INT NOT NULL AUTO_INCREMENT,
+    Employee_Number INT NOT NULL AUTO_INCREMENT,
+    Age INT NOT NULL,
     Distance_From_Home INT NOT NULL,
     Education INT NOT NULL,
     Education_Field VARCHAR(255) NOT NULL,
@@ -13,11 +15,12 @@ CREATE TABLE Employee_Data (
     Total_Working_Years FLOAT NOT NULL,
     Training_Times_Last_Year INT NOT NULL,
     Date_Birth INT NOT NULL,
-    PRIMARY KEY (XXXXXX)
+    PRIMARY KEY (Employee_Number)
 );
+
 CREATE TABLE Company_Data (
-	Employee_Number INT NOT NULL AUTO_INCREMENT,
-	Business_Travel VARCHAR(255) NOT NULL,
+    Employee_Number INT NOT NULL,
+    Business_Travel VARCHAR(255) NOT NULL,
     Daily_Rate FLOAT NOT NULL,
     Hourly_Rate FLOAT NOT NULL,
     Job_Level INT NOT NULL,
@@ -29,17 +32,21 @@ CREATE TABLE Company_Data (
     Years_Since_Last_Promotion INT NOT NULL,
     Years_with_Curr_Manager INT NOT NULL,
     Remote_Work VARCHAR(255) NOT NULL,
-	PRIMARY KEY (Employee_Number)
+    PRIMARY KEY (Employee_Number),
+    FOREIGN KEY (Employee_Number) REFERENCES Employee_Data(Employee_Number)
 );
-CREATE TABLE Satisfaction(
-	Attrition VARCHAR(255)  NOT NULL AUTO_INCREMENT,
-	Environment_Satisfaction INT NOT NULL,
+
+CREATE TABLE Satisfaction (
+    Employee_Number INT NOT NULL,
+    Attrition VARCHAR(255) NOT NULL,
+    Environment_Satisfaction INT NOT NULL,
     Job_Involvement INT NOT NULL,
     Job_Satisfaction INT NOT NULL,
     Over_Time VARCHAR(255) NOT NULL,
     Performance_Rating FLOAT NOT NULL,
     Relationship_Satisfaction INT NOT NULL,
     Work_Life_Balance FLOAT NOT NULL,
-    PRIMARY KEY (XXXXXXXX)
-    );
+    PRIMARY KEY (Employee_Number),
+    FOREIGN KEY (Employee_Number) REFERENCES Employee_Data(Employee_Number)
+);
 
