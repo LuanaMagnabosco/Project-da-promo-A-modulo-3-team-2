@@ -1,6 +1,8 @@
-# SmartTalent Strategies - Optimización de talento para ABC Corporation
+# SmartTalent Strategies 
+# Optimización de talento para ABC Corporation
 
-### Equipo de desarrollo: Raquel Pedraza, Sandra Moreno, Elena Águila y Luana Magnabosco
+### Equipo de desarrollo
+Raquel Pedraza, Sandra Moreno, Elena Águila y Luana Magnabosco
 
 ## Descripción del Proyecto
 
