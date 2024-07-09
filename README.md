@@ -46,7 +46,7 @@ Este repositorio contiene el código y la documentación del proyecto realizado 
 
 **Desarrollo**:
 - Se diseñó la estructura de la base de datos, definiendo las tablas necesarias y sus relaciones.
-- Se creó la base de datos utilizando SQLite y SQLAlchemy.
+- Se creó la base de datos utilizando MySQL Workbench.
 - Se insertaron los datos transformados en las tablas correspondientes.
 
 **Conclusiones**:
@@ -102,7 +102,7 @@ Este repositorio contiene el código y la documentación del proyecto realizado 
   - **sqlalchemy**: Para la creación y gestión de bases de datos.
 
 ### Bases de Datos
-- **SQLite**: Base de datos relacional utilizada para almacenar los datos transformados.
+- **MySQL Workbench**: Base de datos relacional utilizada para almacenar los datos transformados.
 
 ### Entornos y Herramientas de Desarrollo
 - **Jupyter Notebook**: Para el análisis exploratorio de datos y A/B testing.
