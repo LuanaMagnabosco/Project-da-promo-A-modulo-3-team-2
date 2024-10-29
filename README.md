@@ -2,7 +2,7 @@
 # Optimización de talento para ABC Corporation
 
 ### Equipo de desarrollo
-[Raquel Pedraza] (https://github.com/RaquelPedraza), [Sandra Moreno] (https://github.com/sandranomore), [Elena Águila] (https://github.com/eaguilag) y [Luana Magnabosco](https://github.com/LuanaMagnabosco)
+[Raquel Pedraza](https://github.com/RaquelPedraza), [Sandra Moreno](https://github.com/sandranomore), [Elena Águila](https://github.com/eaguilag) y [Luana Magnabosco](https://github.com/LuanaMagnabosco)
 ## Descripción del Proyecto
 
 Este repositorio contiene el código y la documentación del proyecto realizado por el equipo de SmartTalent Strategies para ABC Corporation. El objetivo del proyecto es llevar a cabo un análisis y transformación de datos, diseñar y poblar una base de datos, realizar un experimento A/B para analizar la rotación de empleados y crear un proceso ETL automatizado.
